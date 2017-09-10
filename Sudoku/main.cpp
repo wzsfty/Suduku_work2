@@ -16,7 +16,7 @@ bool checkInput(int argc,char *argv1, char *argv2);
 int main(int argc,char *argv[])
 {  
 	
-		int N=0;
+	int N=0;
 	if( checkInput(argc,argv[1],argv[2])==false  )
 	{
 		return 0;
