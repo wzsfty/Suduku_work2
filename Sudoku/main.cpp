@@ -34,14 +34,14 @@ int main(int argc,char *argv[])
  	sudoku[0][0]=3;
 
 	FILE *fp;
-	fp=fopen("./BIN/suduku.txt","w");
+	fp=fopen("../BIN/suduku.txt","w");
    //»ØËÝ 
-    while(1)  
+    while(true)  
     {  
         i = k/9;  
         j = k%9;  
   
-        while(1)  
+        while(true)  
         {  
             sudoku[i][j]++;  
             if(sudoku[i][j] == 10)  
