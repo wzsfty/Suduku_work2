@@ -34,7 +34,7 @@ int main(int argc,char *argv[])
  	sudoku[0][0]=3;
 
 	FILE *fp;
-	fp=fopen("./suduku.txt","w");
+	fp=fopen("./BIN/suduku.txt","w");
    //»ØËÝ 
     while(1)  
     {  
